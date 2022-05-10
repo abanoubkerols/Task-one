@@ -264,3 +264,49 @@ header {
   bottom: -12px;
 }
 /* ABOUT SECTION END */
+
+/* Services */
+.section__title::after {
+  content: "";
+  width: 50px;
+  height: 3px;
+  background-color: #0078ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  }
+  .services .services .service__item {
+  border-radius: 15px;
+  }
+  .services .service__item i {
+  border: 8px solid #0078ff;
+  transition: all 0.5s;
+  }
+  .services .service__item:hover i {
+  border: 8px solid #cde1f8;
+  background-color: #0078ff;
+  }
+  /* **************************** */
+  
+/* Counter */
+.second-layer {
+  background-color: rgba(0, 119, 255, 0.563);
+  }
+  .counter {
+  background-image: url(images/post-3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  }
+  .second-layer p {
+  font-size: 100px;
+  }
+  .icon-two {
+  width: 4rem;
+  height: 4rem;
+  -webkit-box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #cde1f8;
+  border-radius: 1rem;
+  }
+  /* **************************** */
+  
